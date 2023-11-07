@@ -7,7 +7,6 @@
 
             <div class="side-nav">
                 <a href="about page">about</a>
-                <a href="github page of the creater">github</a>
             </div>
         </nav>
     </header>
@@ -30,8 +29,13 @@ export default {
 
 
 <style>
+
+html {
+    height: 100vh;
+}
+
 body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: rgb(0, 17, 36);
     background: linear-gradient(0deg, rgba(0, 17, 36, 1) 0%, rgba(71, 59, 240, 1) 44%);
@@ -60,13 +64,12 @@ header {
 .side-nav {
     width: 150px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: end;
+    align-items: end;
 }
 
 .side-nav a {
     text-decoration: none;
     color: white;
 }
-
 </style>
