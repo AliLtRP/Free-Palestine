@@ -6,7 +6,7 @@
             </div>
 
             <div class="side-nav">
-                <a href="about page">about</a>
+                <a href="#">about</a>
             </div>
         </nav>
     </header>
@@ -17,14 +17,16 @@
 import logo from '../../assets/palestineLow-2.svg'
 
 
+
 export default {
     name: "logoImage",
     data() {
         return {
             logo
         }
-    }
+    },
 }
+
 </script>
 
 
@@ -38,7 +40,7 @@ body {
     width: 100%;
     height: 100vh;
     background: rgb(0, 17, 36);
-    background: linear-gradient(0deg, rgba(0, 17, 36, 1) 0%, rgba(71, 59, 240, 1) 44%);
+    /* background: linear-gradient(0deg, rgba(0, 17, 36, 1) 0%, rgba(71, 59, 240, 1) 44%); */
 }
 
 header {
@@ -64,8 +66,8 @@ header {
 .side-nav {
     width: 150px;
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .side-nav a {

@@ -18,12 +18,20 @@
             </div>
         </div>
 
+        <Mid/>
     </div>
 </template>
 
 
 <script>
+    import Mid from './MidContentComp.vue'
 
+    export default {
+        name: 'midCont',
+        components: {
+            Mid
+        }
+    }
 </script>
 
 <style>
