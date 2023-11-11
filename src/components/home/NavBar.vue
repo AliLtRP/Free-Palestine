@@ -1,12 +1,16 @@
 <template>
     <header>
         <nav class="nav">
-            <div class="logo">
-                <img v-bind:src="logo" class="logo-img" alt="palestine logo">
-            </div>
+
+            <a href="/">
+                <div class="logo">
+                    <img v-bind:src="logo" class="logo-img" alt="palestine logo">
+                </div>
+            </a>
+
 
             <div class="side-nav">
-                <a href="#">about</a>
+                <a href="/about">about</a>
             </div>
         </nav>
     </header>
@@ -31,7 +35,6 @@ export default {
 
 
 <style>
-
 html {
     height: 100vh;
 }
@@ -74,4 +77,5 @@ header {
     text-decoration: none;
     color: white;
 }
+
 </style>

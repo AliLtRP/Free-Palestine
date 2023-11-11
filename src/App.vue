@@ -1,23 +1,37 @@
 <template>
-  <body>
-    <HomeComp />
-  </body>
+  <NavBar />
+  <router-view />
 </template>
 
-
-
 <script>
-import HomeComp from './components/home/HomeComp.vue'
-
+import NavBar from './components/home/NavBar.vue';
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HomeComp,
+    NavBar,
   }
 }
-
 </script>
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
+nav {
+  padding: 30px;
+}
 
-<style src="./assets/tailwind.css"/>
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+}
+</style>

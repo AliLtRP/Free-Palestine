@@ -1,5 +1,5 @@
 <template>
-    <NavBar />
+    <!-- <NavBar /> -->
     <div class="home">
         <MidCont />
         <His />
@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import NavBar from './NavBar.vue';
+// import NavBar from './NavBar.vue';
 import MidCont from '../mid/MidContentComp.vue'
 import His from '../mid/historyConf.vue'
 
 export default {
     name: 'HomeComp',
     components: {
-        NavBar,
+        // NavBar,
         MidCont,
         His
     }
@@ -32,12 +32,6 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: end;
-
-}
-
-
-@media screen and (max-width: 414px) {
-
 }
 
 </style>

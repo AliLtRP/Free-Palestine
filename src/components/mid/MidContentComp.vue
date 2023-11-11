@@ -4,9 +4,9 @@
         <div class="parentDiv">
             <div class="wrap">
                 <div class="numStatus">
-                    <p>305154</p>
-                    <p>60241</p>
-                    <p>242346</p>
+                    <p>11,078</p>
+                    <p>25,000</p>
+                    <p>1,100,000</p>
                 </div>
             </div>
         </div>
@@ -18,20 +18,20 @@
             </div>
         </div>
 
-        <Mid/>
+        <Mid />
     </div>
 </template>
 
 
 <script>
-    import Mid from './MidContentComp.vue'
+import Mid from './MidContentComp.vue'
 
-    export default {
-        name: 'midCont',
-        components: {
-            Mid
-        }
+export default {
+    name: 'midCont',
+    components: {
+        Mid
     }
+}
 </script>
 
 <style>
@@ -97,5 +97,4 @@ p {
     }
 
 }
-
 </style>
