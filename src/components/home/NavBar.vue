@@ -2,15 +2,15 @@
     <header>
         <nav class="nav">
 
-            <a href="/">
+            <RouterLink to="/">
                 <div class="logo">
                     <img v-bind:src="logo" class="logo-img" alt="palestine logo">
                 </div>
-            </a>
+            </RouterLink>
 
 
             <div class="side-nav">
-                <a href="/about">about</a>
+                <RouterLink to="/about">about</RouterLink>
             </div>
         </nav>
     </header>
@@ -19,11 +19,14 @@
 
 <script>
 import logo from '../../assets/palestineLow-2.svg'
-
+import { RouterLink } from 'vue-router';
 
 
 export default {
     name: "logoImage",
+    components: {
+        RouterLink
+    },
     data() {
         return {
             logo
@@ -77,5 +80,4 @@ header {
     text-decoration: none;
     color: white;
 }
-
 </style>

@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="a">
-                    <div class="year">1946</div>
+                    <div class="year">1967</div>
                     <div class="text">
                         The war began with a surprise Israeli airstrike on Egyptian
                         airfields, which destroyed most of the Egyptian air force on the
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="a">
-                    <div class="year">1946</div>
+                    <div class="year">1973</div>
                     <div class="text">
                         The war was launched by Egypt and Syria in an attempt to regain the
                         territory that they had lost to Israel in the 1967 Six-Day War. The
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="a">
-                    <div class="year">1946</div>
+                    <div class="year">1982</div>
                     <div class="text">
                         The war began with an Israeli invasion of Lebanon. The stated goal
                         of the invasion was to remove the PLO from southern Lebanon and to
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="a">
-                    <div class="year">1946</div>
+                    <div class="year">2000</div>
                     <div class="text">
                         The Intifada was sparked by a visit by then-Israeli opposition
                         leader Ariel Sharon to the Temple Mount/Haram al-Sharif, a holy site

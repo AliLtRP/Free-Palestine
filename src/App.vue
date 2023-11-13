@@ -1,18 +1,23 @@
 <template>
   <NavBar />
-  <router-view />
+  <RouterView />
 </template>
 
 <script>
 import NavBar from './components/home/NavBar.vue';
+import { RouterView } from 'vue-router';
+
 
 export default {
   name: 'app',
   components: {
     NavBar,
+    RouterView
   }
 }
 </script>
+
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -31,7 +36,8 @@ nav a {
   color: #2c3e50;
 }
 
-nav a.router-link-exact-active {
+/* nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
+
 </style>
